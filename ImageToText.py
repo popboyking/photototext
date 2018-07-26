@@ -61,7 +61,7 @@ def main():
             tm = img.getpixel((j, i))
             if len(tm) == 1:
                 txt += getchar(tm[0])
-            if len(tm) == 2:
+            elif len(tm) == 2:
                 txt += getchar(tm[0], tm[1])
             elif len(tm) == 3:
                 txt += getchar(tm[0],tm[1],tm[2])
