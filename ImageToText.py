@@ -66,9 +66,7 @@ def main():
             elif len(tm) == 3:
                 txt += getchar(tm[0],tm[1],tm[2])
             elif len(tm) == 4:
-                txt += getchar(tm[0],tm[1],tm[2])
-            else:
-                txt += getchar(tm[0], tm[1], tm[2],tm[4])
+                txt += getchar(tm[0],tm[1],tm[2],tm[3])
 
         txt += "\n"
 
